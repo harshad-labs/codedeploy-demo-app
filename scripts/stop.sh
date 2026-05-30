@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "Stopping old application"
-sudo systemctl stop httpd || true
+echo "Nothing to stop (Nginx handles service)"
+exit 0

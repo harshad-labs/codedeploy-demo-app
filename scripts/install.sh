@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "Installing Apache"
-sudo yum install httpd -y
+echo "No Apache needed, using Nginx"
