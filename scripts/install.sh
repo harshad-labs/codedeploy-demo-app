@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "No Apache needed, using Nginx"
+echo "Deploying application to Nginx web root"
+mkdir -p /usr/share/nginx/html
